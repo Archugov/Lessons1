@@ -25,7 +25,7 @@ namespace Arrays
 
             for (int i = MyArray.Length - 1; i >= 0; i--)
             {
-                Console.Write(MyArray[i] + "\t");
+                Console.Write(MyArray[i] + "  ");
 
                 if (MyArray[i] % 2 == 0)
                 {
