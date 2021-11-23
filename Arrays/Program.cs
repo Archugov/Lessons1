@@ -3,6 +3,19 @@ using System.Linq;
 
 namespace Arrays
 {
+    /*
+     *  1.
+     *  Найти сумму четных чисел в массиве
+     *
+     *  2.
+     *  Найти наименьшее число в массиве
+     *  
+     *  1.
+     *  Find the sum of even numbers in an array
+
+     *  2.
+     *  Find smallest number in an array
+     */
     class Program
     {
         static void Main(string[] args)
@@ -17,11 +30,11 @@ namespace Arrays
             Console.WriteLine("Fill the array:");
             for (int i = 0; i < dimension; i++)
             {
-                Console.Write("[" + i + "]: ");
+                Console.Write("[" + (i + 1) + "]: ");
                 MyArray[i] = int.Parse(Console.ReadLine());                
             }
 
-            double sum = 0, leastNumber = MyArray[0];
+            double sum = 0, smallestNumber = MyArray[0];
 
             for (int i = MyArray.Length - 1; i >= 0; i--)
             {
@@ -35,14 +48,14 @@ namespace Arrays
 
             for (int i = 1; i < MyArray.Length; i++)
             {
-                if (leastNumber > MyArray[i])
+                if (smallestNumber > MyArray[i])
                 {
-                    leastNumber = MyArray[i];
+                    smallestNumber = MyArray[i];
                 }
             }
                         
             Console.WriteLine();
-            Console.WriteLine("Least number: " + leastNumber);            
+            Console.WriteLine("Least number: " + smallestNumber);            
             Console.WriteLine("Sum = " + sum);
         }
     }

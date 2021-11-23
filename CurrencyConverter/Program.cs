@@ -2,6 +2,13 @@
 
 namespace CurrencyConverter
 {
+    /*
+     *  1.
+     *  Написать конвертер валют
+     *  
+     *  1.
+     *  Currency converter
+     */
     class Program
     {
         static void Main(string[] args)

@@ -2,6 +2,13 @@
 
 namespace Calculator
 {
+    /*
+     *  1.
+     *  Калькулятор
+     *  
+     *  1.
+     *  Calculator
+     */
     class Program
     {
         static void Main(string[] args)

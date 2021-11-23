@@ -2,6 +2,13 @@
 
 namespace CountEvenOddNumbers
 {
+    /*
+     *  1.
+     *  Подсчитать сумму и количество четных и нечетных чисел в заданном диапазоне
+     *  
+     *  1.
+     *  Count sum/quantity of even and odd numbers in a given range
+     */
     class Program
     {
         static void Main(string[] args)

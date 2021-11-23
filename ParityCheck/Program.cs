@@ -2,6 +2,13 @@
 
 namespace ParityCheck
 {
+    /*
+     *  1.
+     *  Проверить число на четность
+     *  
+     *  1.
+     *  Check number for evenness
+     */
     class Program
     {
         static void Main(string[] args)

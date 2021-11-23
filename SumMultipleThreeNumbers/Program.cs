@@ -2,6 +2,13 @@
 
 namespace SumMultipleThreeNumbers
 {
+    /*
+     *  1.
+     *  Вычислить сумму и произведение трёх чисел
+     *  
+     *  1.
+     *  Calculate sum and multiple of three numbers
+     */
     class Program
     {
         static void Main(string[] args)

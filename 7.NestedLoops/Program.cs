@@ -2,6 +2,13 @@
 
 namespace _7.NestedLoops
 {
+    /*
+     *  1.
+     *  Нарисовать треугольники в консоли без использования конструкции if/else
+
+     *  1.
+     *  Draw triangles in console without using if / else construct
+     */
     class Program
     {
         static void Main(string[] args)

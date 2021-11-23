@@ -2,6 +2,13 @@
 
 namespace AverageNumbers
 {
+    /*
+     *  1.
+     *  Вычислить среднее арифметическое двух чисел
+     *  
+     *  1.
+     *  Calculate the arithmetic mean of two numbers
+     */
     class Program
     {
         static void Main(string[] args)
