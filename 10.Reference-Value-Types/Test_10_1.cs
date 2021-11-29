@@ -14,7 +14,7 @@ namespace _10.Reference_Value_Types
      */
     class Test_10_1
     {
-        static public void ResizeArray<T>(ref T[] array, uint newSize)
+        static public void ResizeArray<T>(ref T[] array, int newSize)
         {
             T[] newArray = new T[newSize];
 

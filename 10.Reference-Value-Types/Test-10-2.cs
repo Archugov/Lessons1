@@ -13,18 +13,28 @@ namespace _10.Reference_Value_Types
     */
     class Test_10_2
     {
-        static public void AddInArray<T>(ref T[] Array, uint index, T value)
+        static public void AddInArray<T>(ref T[] Array, int index, T value)
         {
             T[] newArray = new T[Array.Length + 1];
             newArray[index] = value;
 
-            for (uint i = 0; i < index; i++)
+            for (int i = 0; i < index; i++)
                 newArray[i] = Array[i];
 
-            for (uint i = index; i < newArray.Length; i++)
-                newArray[i] = Array[i];
+            for (int i = index; i < Array.Length; i++)
+                newArray[i + 1] = Array[i];
 
             Array = newArray;
+        }
+
+        static public void AddFirst<T>(ref T[] Array, T value)
+        {
+            AddInArray(ref Array, 0, value);
+        }
+
+        static public void AddLast<T>(ref T[] Array, T value)
+        {
+            AddInArray(ref Array, Array.Length, value);
         }
     }
 }
