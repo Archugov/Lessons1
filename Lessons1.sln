@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.Arrays", "Arrays\8.Arrays
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Methods-Functions", "9.Methods-Functions\9.Methods-Functions.csproj", "{27306286-2689-4BB3-A32E-C04F3D7825F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Reference-Value-Types", "10.Reference-Value-Types\10.Reference-Value-Types.csproj", "{C327CCD8-6DEA-47AD-BF40-5B5D9E15F726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Reference-Value-Types", "10.Reference-Value-Types\10.Reference-Value-Types.csproj", "{C327CCD8-6DEA-47AD-BF40-5B5D9E15F726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Recursion", "11.Recursion\11.Recursion.csproj", "{5D8F60A3-94AD-48DD-9729-2F15441181DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C327CCD8-6DEA-47AD-BF40-5B5D9E15F726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C327CCD8-6DEA-47AD-BF40-5B5D9E15F726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C327CCD8-6DEA-47AD-BF40-5B5D9E15F726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8F60A3-94AD-48DD-9729-2F15441181DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8F60A3-94AD-48DD-9729-2F15441181DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8F60A3-94AD-48DD-9729-2F15441181DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8F60A3-94AD-48DD-9729-2F15441181DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
