@@ -24,16 +24,20 @@ namespace _11.Recursion
             }
         }
 
-        static void SumArray(int[] array, int sum = 0, int i = 0)
+        static int SumArray(int[] array, int i = 0)
         {
             if (i >= array.Length)
-            {
-                Console.WriteLine("Sum = " + sum);
-                return;
-            }
+                return 0;
 
-            sum += array[i];
-            SumArray(array, sum, i + 1);
+            return array[i] + SumArray(array, i + 1);
+        }
+
+        static int SumNumbers(int value)
+        {
+            if (value < 10)
+                return value;
+
+            return value % 10 + SumNumbers(value / 10);
         }
 
         static void Main(string[] args)
@@ -42,8 +46,11 @@ namespace _11.Recursion
 
             int[] intArray = { 5, 1, 8, 9, 0, 5 };
 
-            PrintArray(myArray);
-            SumArray(intArray);
+            int value = 666;
+
+            //PrintArray(myArray);
+            //Console.WriteLine("sum = " + SumArray(intArray));
+            Console.WriteLine(SumNumbers(value));
         }
     }
 }
